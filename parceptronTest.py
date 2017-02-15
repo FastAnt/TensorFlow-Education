@@ -10,9 +10,10 @@ from __future__ import print_function
 
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
+import tensorflow as tf
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
-import tensorflow as tf
+
 
 
 # Create model
